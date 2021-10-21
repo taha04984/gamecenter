@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.test {
+    width: 100%;
+    text-align: center;
+    color: red;
+    background-color: black;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+}
+
+.links {
+    width: 100%;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.header img {
+    padding: 0 1rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+    width: 100%;
+    margin-left: 5rem;
+    font-style: italic;
+}
+
+
+.banner-text {
+    text-align: center;
+    margin: 0 7rem;
+}
+
+.banner {
+    background-image: url('Cover.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+.blur {
+    height: 85vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-text {
+    color: rgb(255, 255, 255);
+    padding: 32vh 0 0 0;
+    font-size: 2rem;
+    line-height: 5rem;
+}
+
+.list-header h1{
+    text-align: center;
+    margin: 4rem 0 0 0;
+    padding: 0 0 4rem 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+    text-align: center;
+
+}
+
+.list h1 {
+    font-size: 2rem;
+}
+
+.list ul {
+    margin: 2rem 0;
+}
+
+.list ul li {
+}
+
+.list ul li img{
+    padding: 5rem 5rem;
+    height: auto;
+    width: 25rem;
+}
+
+.contact {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    padding: 5rem 0;
+    background-color: #222529;
+    color: white;
+}
+
+footer h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+footer ul {
+    font-size: 2rem;
+    padding-left: 5rem;
+    line-height: 3rem;
+
+}
+
+.footer {
+    padding: 5rem 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 0.7rem;
+}
+
+.contact {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 770px) {
+    .header h1 {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1100px) {
+    
+    .header h1 {
+        margin-left: 10rem;
+        font-size: 2rem;
+        width: 100%;
+        font-style: italic;
+    }
+
+    .banner-text {
+        padding-top: 42.5vh;
+    }
+
+    .links {
+        padding-right: 5rem;
+    }
+
+    .s1 {
+        display: inline-block;
+    }
+
+    .s2 {
+        display: inline-block;
+    }
+
+    .consoles {
+        display: flex;
+        height: auto;
+        width: 84.9rem;
+        justify-content: space-around;
+        padding: 20px 0;
+        margin: auto;
+    }
+
+    .consoles h1 {
+        text-align: center;
+        border: 1px solid white;
+    }
+
+    .list ul .consoles li img{
+        text-align: center;
+        height: 35rem;
+        width: 35rem;
+
+    }
+
+    .pcs {
+        display: flex;
+        height: auto;
+        width: 84.9rem;
+        justify-content: space-around;
+        padding: 20px 0;
+        margin: auto;
+    }
+
+    .list ul .pcs li img{
+        text-align: center;
+        width: 40rem;
+        height: auto;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        bakc
+    }
+
+    .list ul .pcs li .msi {
+        padding-top: 35%;
+        padding-bottom: 34%;
+    }
+
+    .ac {
+        display: flex;
+        height: auto;
+        width: 84.9rem;
+        justify-content: space-around;
+        padding: 20px 0;
+        margin: auto;
+    }
+
+    .list ul .ac li img{
+        text-align: center;
+        height: 30rem;
+        width: 40rem;
+    }
+
+    .list ul .ac li .hp {
+        height: 35rem;
+        width: 30rem;
+    }
+
+    .tables {
+        display: flex;
+        height: auto;
+        width: 84.9rem;
+        justify-content: space-around;
+        padding: 40px 0;
+        margin: auto;
+    }
+
+    .list ul .tables li img{
+        text-align: center;
+        height: 50rem;
+        width: 50rem;
+    }
+
+
+    footer {
+        padding: 5rem 0rem;
+        
+    }
+
+    footer ul {
+        margin-left: 20rem;
+    }
+}
